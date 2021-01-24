@@ -1,0 +1,44 @@
+'use strict';
+
+module.exports = {
+  up: async (queryInterface, Sequelize) => {
+    
+    await queryInterface.createTable("addresses",{
+      id: {
+        type: Sequelize.DataTypes.INTEGER(11),
+        allowNull: false,
+        autoIncrement: true,
+        primaryKey: true
+    },
+    address:{
+      type: Sequelize.DataTypes.STRING()
+    },
+
+    city: {
+      type: Sequelize.DataTypes.STRING()
+    },
+    state:{
+        type: Sequelize.DataTypes.STRING()
+    },
+
+    createdAt: {
+      allowNull: false,
+      type: Sequelize.DATE,
+      defaultValue: new Date(),
+    },
+
+    updatedAt: {
+      allowNull: false,
+      type: Sequelize.DATE,
+      defaultValue: new Date(),
+    }
+
+    });
+    
+  },
+
+  down: async (queryInterface, Sequelize) => {
+    await queryInterface.dropTable("addresses")
+
+  }
+};
