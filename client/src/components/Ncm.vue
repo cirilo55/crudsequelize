@@ -6,9 +6,6 @@
       class="elevation-1"
       no-data-text="Sem registro"
       >
-        <NcmAdd
-        v-if="dialog"
-        />
 
 <template v-slot:top>
   <v-toolbar flat class="title">
@@ -20,38 +17,21 @@
     ></v-divider>
     <v-spacer></v-spacer>
 
-
-    <v-btn
-            color="primary"
-            dark
-            @click="alterDialog()"
-        >
-          Novo Item
-        </v-btn>
-
-
+    <div>
+      <NcmAdd />
+    </div>
 
   </v-toolbar>
 
-
-
 </template>
 
-        <template v-slot:item.actions="{ item }">
-          <v-icon
-              small
-              class="mr-2"
-              @click="editItem(item)"
-          >
-            mdi-pencil
-          </v-icon>
+        <template v-slot:item.actions="{  }">
+          <div>
+          <NcmUpdate />
 
-          <v-icon
-              small
-              @click="deleteItem(item)"
-          >
-            mdi-delete
-          </v-icon>
+          <NcmDestroy />
+          </div>
+
         </template>
 
       </v-data-table>
@@ -64,6 +44,8 @@
 <script>
 import config from "@/services/config";
 import NcmAdd from "@/components/Dialog/Ncm/NcmAdd";
+import NcmDestroy from "@/components/Dialog/Ncm/NcmDestroy";
+import NcmUpdate from "@/components/Dialog/Ncm/NcmUpdate";
 
 export default {
 
@@ -106,7 +88,9 @@ export default {
 
   },
   components: {
-      NcmAdd
+      NcmAdd,
+      NcmDestroy,
+      NcmUpdate
   }
 
 }
@@ -115,6 +99,14 @@ export default {
 <style scoped>
 .container{
   padding: 80px;
+}
+.fade-enter-active,
+.fade-leave-active{
+  transition: opacity 2s;
+}
+.fade-enter,
+.fade-leave-to{
+  opacity: 0;
 }
 .title{
 
