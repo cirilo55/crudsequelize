@@ -5,7 +5,7 @@ const getAllCategory = async(req, res) =>{
         const category = await db.sequelize.models.Category.findAll()
         return await res.status(200).json({ category });
     }catch (error){
-        return res.staus(500).json({error: error.message})
+        return res.status(500).json({error: error.message})
     }
 }
 

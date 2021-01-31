@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="364cbe05-cb50-4115-b55e-0017f4db5d0d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/usercontroller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Dialog/Ncm/NcmAdd.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar/ListitemCadastrados/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Navbar/ListitemCadastrados/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/services/ncm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sequelize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/addresscontroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/aliquotcontroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/categorycontroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/clientcontroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/enterprisecontroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/ncmController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/productcontroller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201224141102-categories_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201224141749-ncm_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201224141750-aliquot_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201224142417-products_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201324141103-address_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201324141103-client_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201324141203-enterprise_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20201324141304-cliententerprise_create_table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/aliquot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/category.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/enterprise.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ncm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20201224145759-address-seeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20201224145759-category-seeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20201224145813-ncm-seeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20201224145814-aliquot-seeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20201224145822-product-seeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/seeders/20201300000000-client-seeder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nfjs88TFh93A2S6j7LhC7skrsh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="364cbe05-cb50-4115-b55e-0017f4db5d0d" name="Default Changelist" comment="" />
+      <created>1611788242315</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611788242315</updated>
+      <workItem from="1611788243750" duration="69000" />
+      <workItem from="1611788335862" duration="6937000" />
+      <workItem from="1612009930051" duration="13653000" />
+      <workItem from="1612028678751" duration="30937000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

@@ -1,7 +1,7 @@
 {
   "development": {
-    "username": "user",
-    "password": "123456",
+    "username": "root",
+    "password": "",
     "database": "crudsequelize",
     "host": "127.0.0.1",
     "dialect": "mysql"

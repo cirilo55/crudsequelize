@@ -7,9 +7,16 @@ const aliquotcontrolller = require('../controllers/aliquotcontroller');
 const addresscontroller = require('../controllers/addresscontroller');
 const clientcontroller = require('../controllers/clientcontroller')
 const enterprisecontroller = require('../controllers/enterprisecontroller')
+const usercontroller = require('../controllers/usercontroller')
 const router = Router();
 
-router.get('/', (req, res) => res.send('Welcome'))
+router.get('/', (req, res) => res.send('Welcome DUDE'))
+
+router.get('/user', usercontroller.getAll);
+router.post('/user', usercontroller.create);
+router.get('/user/:id',usercontroller.find);
+router.put('/user/:id', usercontroller.update);
+router.delete('/user/:id', usercontroller.destroy);
 
 router.get('/cat', categorycontroller.getAllCategory);
 router.post('/cat', categorycontroller.createCategory);

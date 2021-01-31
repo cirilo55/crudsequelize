@@ -5,7 +5,7 @@ const getAllNcm = async(req, res) =>{
         const ncm = await db.sequelize.models.Ncm.findAll()
         return await res.status(200).json({ ncm });
     }catch (error){
-        return res.staus(500).json({error: error.message})
+        return res.status(500).json({error: error.message})
     }
 }
 

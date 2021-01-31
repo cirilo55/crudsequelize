@@ -5,7 +5,7 @@ const getAll = async(req, res) =>{
         const aliquot = await db.sequelize.models.Aliquot.findAll()
         return await res.status(200).json({ aliquot });
     }catch (error){
-        return res.staus(500).json({error: error.message})
+        return res.status(500).json({error: error.message})
     }
 }
 
